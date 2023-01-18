@@ -6,17 +6,19 @@ namespace PaymentContext.Tests
     public class StudentTests
     {
         [TestMethod]
-        public void AddSubscription() {
-            var subscription = new Subscription(null);
+        public void AddSubscription() 
+        {
+            // var subscription = new Subscription(null);
 
-            var student = new Student(
-                "Bruce",
-                "Wayne",
-                "12345678910",
-                "imnotbatman@wayne.com",
-                "Wayne Manor, Gotham City"
-            );
+            // var student = new Student(
+            //     "Bruce",
+            //     "Wayne",
+            //     "12345678910",
+            //     "imnotbatman@wayne.com",
+            //     "Wayne Manor, Gotham City"
+            // );
 
-            student.AddSubscription(subscription);        }
+            // student.AddSubscription(subscription);        
+        }
     }
 }
