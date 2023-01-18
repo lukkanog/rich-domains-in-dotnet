@@ -4,11 +4,11 @@ namespace PaymentContext.Domain.ValueObjects
 {
     public class Email: ValueObject
     {
-        public Email(string address)
+        public Email(Address address)
         {
             Address = address;
         }
         
-        public string Address { get; private set; }
+        public Address Address { get; private set; }
     }
 }
